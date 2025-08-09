@@ -99,17 +99,17 @@ local Translations = {
     body = {
         head = '頭',
         neck = '首',
-        spine = '背骨',
+        spine = '脊椎',
         upper_body = '上半身',
         lower_body = '下半身',
         left_arm = '左腕',
         left_hand = '左手',
-        left_fingers = '左手の指',
+        left_fingers = '左指',
         left_leg = '左脚',
         left_foot = '左足',
         right_arm = '右腕',
         right_hand = '右手',
-        right_fingers = '右手の指',
+        right_fingers = '右指',
         right_leg = '右脚',
         right_foot = '右足',
     },
@@ -122,8 +122,8 @@ local Translations = {
         checking_in = 'チェックイン中...',
     },
     logs = {
-        death_log_title = '%{playername} (%{playerid}) が死んだ',
-        death_log_message = '%{killername} は %{playername} を **%{weaponlabel}** (%{weaponname}) で殺した',
+        death_log_title = '%{playername} (%{playerid}) が死亡しました',
+        death_log_message = '%{killername} が **%{weaponlabel}** (%{weaponname}) で %{playername} を殺害しました',
     }
 }
 
